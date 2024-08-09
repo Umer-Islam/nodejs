@@ -1,3 +1,8 @@
 console.log("hello, world from node ")
 
-let firstObj = {}
+let firstObj = {
+    name: "joe",
+    age: 999
+}
+
+module.exports = firstObj;
